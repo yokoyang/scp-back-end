@@ -1,0 +1,9 @@
+---
+applications:
+
+- name: swagger-proxy
+  instances: 1
+  buildpack: nodejs_buildpack
+  command: node index.js
+  memory: 512M
+  path: ./
